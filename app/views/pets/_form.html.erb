@@ -1,6 +1,6 @@
 <%= simple_form_for @pet do |f| %>
   <%= f.input :name %>
-  <%= f.input :address %>
+  <%= f.inpupt :address %>
   <%= f.input :species, collection: Pet::SPECIES %>
   <%= f.input :found_on %>
   <%= f.submit class: "btn btn-primary" %>
